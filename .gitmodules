@@ -1,0 +1,20 @@
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
+  ignore = dirty
+[submodule "bundle/matchit"]
+	path = bundle/matchit
+	url = git://github.com/vim-scripts/matchit.zip.git
+  ignore = dirty
+[submodule "bundle/omnicppcomplete"]
+	path = bundle/omnicppcomplete
+	url = git://github.com/vim-scripts/OmniCppComplete.git
+  ignore = dirty
+[submodule "bundle/snipmate"]
+	path = bundle/snipmate
+	url = git://github.com/msanders/snipmate.vim.git
+  ignore = dirty
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = git://github.com/ervandew/supertab.git
+  ignore = dirty
