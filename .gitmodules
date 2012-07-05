@@ -18,3 +18,27 @@
 	path = bundle/supertab
 	url = git://github.com/ervandew/supertab.git
   ignore = dirty
+[submodule "bundle/splice"]
+	path = bundle/splice
+	url = git://github.com/sjl/splice.vim.git
+  ignore = dirty
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git://github.com/scrooloose/syntastic.git
+  ignore = dirty
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = git://github.com/tpope/vim-surround.git
+  ignore = dirty
+[submodule "bundle/vim-repeat"]
+	path = bundle/vim-repeat
+	url = git://github.com/tpope/vim-repeat.git
+  ignore = dirty
+[submodule "bundle/vim-xdebug"]
+	path = bundle/vim-xdebug
+	url = git://github.com/ludovicPelle/vim-xdebug.git
+  ignore = dirty
+[submodule "bundle/yankring"]
+	path = bundle/yankring
+	url = git://github.com/vim-scripts/YankRing.vim.git
+  ignore = dirty
