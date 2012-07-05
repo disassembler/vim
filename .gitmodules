@@ -47,5 +47,10 @@
   url = git://github.com/tpope/vim-fugitive.git
   ignore = dirty
 [submodule "bundle/vim-addon-mw-utils"]
-	path = bundle/vim-addon-mw-utils
-	url = git://github.com/MarcWeber/vim-addon-mw-utils.git
+  path = bundle/vim-addon-mw-utils
+  url = git://github.com/MarcWeber/vim-addon-mw-utils.git
+  ignore = dirty
+[submodule "bundle/tlib"]
+  path = bundle/tlib
+  url = git://github.com/vim-scripts/tlib.git
+  ignore = dirty
