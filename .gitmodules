@@ -54,3 +54,7 @@
   path = bundle/tlib
   url = git://github.com/vim-scripts/tlib.git
   ignore = dirty
+[submodule "bundle/autocomplpop"]
+  path = bundle/autocomplpop
+  url = git://github.com/vim-scripts/AutoComplPop.git
+  ignore = dirty
