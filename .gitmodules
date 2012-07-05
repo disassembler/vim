@@ -12,7 +12,7 @@
   ignore = dirty
 [submodule "bundle/snipmate"]
   path = bundle/snipmate
-  url = git://github.com/msanders/snipmate.vim.git
+  url = git://github.com/garbas/vim-snipmate.git
   ignore = dirty
 [submodule "bundle/supertab"]
   path = bundle/supertab
