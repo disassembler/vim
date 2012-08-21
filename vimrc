@@ -9,6 +9,8 @@ let g:snips_author = "Samuel Leathers <sbl5007@psu.edu>"
 "let g:snips_author = "Adam Bergstein <aub17@psu.edu>"
 let g:debuggerMaxDepth = 10
 
+let g:syntastic_auto_jump = 1
+
 " Pathogen Settings
 filetype off
 call pathogen#runtime_append_all_bundles()
