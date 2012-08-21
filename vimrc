@@ -11,6 +11,22 @@ let g:debuggerMaxDepth = 10
 
 let g:syntastic_auto_jump = 1
 
+let g:syntastic_phpcs_conf="--standard=Drupal" 
+if has('statusline')
+  set laststatus=2
+  " Broken down into easily includeable segments
+  set statusline=%<%f\ " Filename
+  set statusline+=%w%h%m%r " Options
+  set statusline+=%{fugitive#statusline()} " Git Hotness
+  set statusline+=\ [%{&ff}/%Y] " filetype
+  set statusline+=\ [%{getcwd()}] " current dir
+  set statusline+=%#warningmsg#
+  set statusline+=%{SyntasticStatuslineFlag()}
+  set statusline+=%*
+  let g:syntastic_enable_signs=1
+  set statusline+=%=%-14.(%l,%c%V%)\ %p%% " Right aligned file nav info
+endif
+
 " Pathogen Settings
 filetype off
 call pathogen#runtime_append_all_bundles()
@@ -46,7 +62,7 @@ set encoding=utf-8
 set scrolloff=3
 set autoindent        " Let vim help you with your code indention
 set showmode          " Tell you if you're in insert mode
-                      " you hit <enter> (r) or o/O (o) in a block comment.
+" you hit <enter> (r) or o/O (o) in a block comment.
 "show current uncompleted command
 set showcmd
 
