@@ -58,3 +58,6 @@
   path = bundle/autocomplpop
   url = git://github.com/vim-scripts/AutoComplPop.git
   ignore = dirty
+[submodule "bundle/vdebug"]
+	path = bundle/vdebug
+	url = git://github.com/joonty/vdebug.git
