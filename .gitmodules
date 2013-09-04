@@ -14,10 +14,6 @@
   path = bundle/snipmate
   url = git://github.com/garbas/vim-snipmate.git
   ignore = dirty
-[submodule "bundle/supertab"]
-  path = bundle/supertab
-  url = git://github.com/ervandew/supertab.git
-  ignore = dirty
 [submodule "bundle/splice"]
   path = bundle/splice
   url = git://github.com/sjl/splice.vim.git
@@ -34,10 +30,6 @@
   path = bundle/vim-repeat
   url = git://github.com/tpope/vim-repeat.git
   ignore = dirty
-[submodule "bundle/vim-xdebug"]
-  path = bundle/vim-xdebug
-  url = git://github.com/ludovicPelle/vim-xdebug.git
-  ignore = dirty
 [submodule "bundle/yankring"]
   path = bundle/yankring
   url = git://github.com/vim-scripts/YankRing.vim.git
@@ -53,8 +45,4 @@
 [submodule "bundle/tlib"]
   path = bundle/tlib
   url = git://github.com/vim-scripts/tlib.git
-  ignore = dirty
-[submodule "bundle/autocomplpop"]
-  path = bundle/autocomplpop
-  url = git://github.com/vim-scripts/AutoComplPop.git
   ignore = dirty

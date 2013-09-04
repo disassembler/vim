@@ -5,8 +5,7 @@
 
 " set this to current module name
 "let g:drupalmod = "mvc"
-let g:snips_author = "Samuel Leathers <sbl5007@psu.edu>"
-"let g:snips_author = "Adam Bergstein <aub17@psu.edu>"
+let g:snips_author = "Samuel Leathers <sam@theleathers.net>"
 let g:debuggerMaxDepth = 10
 
 let g:syntastic_auto_jump = 1
