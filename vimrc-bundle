@@ -20,7 +20,7 @@ NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'scrooloose/syntastic'
 NeoBundle 'garbas/vim-snipmate'
 NeoBundle 'sjl/splice.vim'
-NeoBundle 'lunaru/twig'
+NeoBundle 'lunaru/vim-twig'
 NeoBundle 'joonty/vdebug'
 NeoBundle 'MarcWeber/vim-addon-mw-utils'
 " }}}
