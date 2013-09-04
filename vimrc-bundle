@@ -1,0 +1,26 @@
+set nocompatible               " be iMproved
+
+if has('vim_starting')
+  set runtimepath+=~/.vim/bundle/neobundle.vim/
+endif
+
+call neobundle#rc(expand('~/.vim/bundle/'))
+" Let NeoBundle manage NeoBundle
+NeoBundleFetch 'Shougo/neobundle.vim'
+
+" Edit {{{
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'tpope/vim-repeat'
+NeoBundle 'tpope/vim-surround'
+NeoBundle 'vim-scripts/matchit'
+NeoBundle 'vim-scripts/OmniCppComplete'
+NeoBundle 'vim-scripts/tlib'
+NeoBundle 'vim-scripts/YankRing.vim'
+NeoBundle 'scrooloose/nerdtree'
+NeoBundle 'scrooloose/syntastic'
+NeoBundle 'garbas/vim-snipmate'
+NeoBundle 'sjl/splice.vim'
+NeoBundle 'lunaru/twig'
+NeoBundle 'joonty/vdebug'
+NeoBundle 'MarcWeber/vim-addon-mw-utils'
+" }}}
