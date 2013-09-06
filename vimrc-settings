@@ -92,7 +92,7 @@ vnoremap <F1> <ESC>
 " Print Settings
 set printoptions=paper:letter
 
-set mouse=a
+"set mouse=a
 
 set tags=./tags;/
 
@@ -102,23 +102,12 @@ set incsearch
 " suffixes that get lower priority when doing tab completion for filenames.
 set suffixes=.bak,~,.swp,.o,.info,.aux,.log,.dvi,.bbl,.blg,.brf,.cb,.ind,.idx,.ilg,.inx,.out,.toc
 
-map <c-h> :nohlsearch<enter>
-map <c-x> <Esc>:wq<CR>
-
-iabbrev date<c-a>  <c-r>=strftime("%F")<cr>
-inoremap <c-d> <c-v><c-a><c-[>a
-
-iabbrev dt<c-a>  <c-r>=strftime("%a\ %b\ %e\ %I:%M\ %p")<cr>
-inoremap <c-d> <c-v><c-a><c-[>a
-
-iab YDATE <C-R>=strftime("%a %b %d %T %Z %Y")<CR>
-
 " quickly edit files often edited
 map ,v :e ~/.vimrc<CR>
 map ,m :e ~/.muttrc<CR>
 map ,b :e ~/.bash_profile<CR>
+map ,c :e ~/.zshrc<CR>
 map ,tc :!ctags -l c `find . -name "*.[chp]"`
-map ,ctd :!ctags --langmap=php:.engine.inc.module.theme.php --php-kinds=cdfi --languages=php --recurse
 map ,q :q<CR>
 map ,L  1G/Last update:\s*/e+1<CR>CYDATE<ESC>
 map ,,L 1G/Last change:\s*/e+1<CR>CYDATE<ESC>

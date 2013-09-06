@@ -3,13 +3,7 @@
 "
 " Vim configuration file - vim editor defaults
 
-" set this to current module name
-"let g:drupalmod = "mvc"
-let g:snips_author = "Samuel Leathers <sam@theleathers.net>"
-let g:debuggerMaxDepth = 10
-let g:syntastic_auto_jump = 1
-let g:syntastic_phpcs_conf="--standard=Drupal" 
-
-source ~/.vim/vimrc-neocomplcache
-
-map ,ctd :!ctags --langmap=php:.engine.inc.module.theme.php --fields=+aimS --languages=php -R
+"source ~/.vim/vimrc-neocomplete
+"source ~/.vim/vimrc-neosnippets
+source ~/.vim/vimrc-youcomplete
+source ~/.vim/vimrc-ultisnips
