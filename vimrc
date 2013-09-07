@@ -2,7 +2,7 @@
 " .vimrc
 "
 
-source ~/.vim/vimrc-bundle
-source ~/.vim/vimrc-settings
-source ~/.vim/vimrc-statusbar
-source ~/.vim/vimrc-autocompletion
+source ~/.vim/bundles.vim
+source ~/.vim/settings.vim
+source ~/.vim/statusbar.vim
+source ~/.vim/autocompletion.vim

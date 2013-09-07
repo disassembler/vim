@@ -5,5 +5,5 @@
 
 "source ~/.vim/vimrc-neocomplete
 "source ~/.vim/vimrc-neosnippets
-source ~/.vim/vimrc-youcomplete
-source ~/.vim/vimrc-ultisnips
+source ~/.vim/youcompleteme.vim
+source ~/.vim/ultisnips.vim
