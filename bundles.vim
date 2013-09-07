@@ -8,6 +8,10 @@ call neobundle#rc(expand('~/.vim/bundle/'))
 " Let NeoBundle manage NeoBundle
 NeoBundleFetch 'Shougo/neobundle.vim'
 
+" Themes {{{
+NeoBundle 'altercation/vim-colors-solarized'
+" }}}
+
 " Edit {{{
 NeoBundle 'tpope/vim-repeat'
 NeoBundle 'tpope/vim-surround'
@@ -33,26 +37,26 @@ NeoBundle 'disassembler/vim-snippets'
 " }}}
 
 " Web - PHP/HTML/JS/CSS {{{
-NeoBundle 'othree/html5.vim'
-NeoBundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
-NeoBundle 'mutewinter/nginx.vim'
-"NeoBundle 'StanAngeloff/php.vim' -- Crashing
 NeoBundle 'majutsushi/tagbar'
 "NeoBundle 'vim-scripts/XDebug-DBGp-client-for-PHP'
 NeoBundle 'arnaud-lb/vim-php-namespace'
 NeoBundle 'docteurklein/vim-symfony'
 NeoBundle 'vim-scripts/phpfolding.vim'
-NeoBundle 'shawncplus/phpcomplete.vim'
+"NeoBundle 'shawncplus/phpcomplete.vim'
 NeoBundle '2072/PHP-Indenting-for-VIm'
 "}}}
 
 " Programming {{{
 NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'vim-scripts/OmniCppComplete'
+"NeoBundle 'vim-scripts/OmniCppComplete'
 NeoBundle 'killphi/splice.vim'
 " }}}
 
 " Syntax {{{
+NeoBundle 'mutewinter/nginx.vim'
+NeoBundle 'othree/html5.vim'
+NeoBundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
+"NeoBundle 'StanAngeloff/php.vim' " Crashing
 NeoBundle 'lunaru/vim-twig'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'elzr/vim-json'

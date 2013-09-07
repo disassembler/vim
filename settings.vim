@@ -50,7 +50,8 @@ set undofile
 
 " Color and syntax stuff
 set t_Co=256
-colorscheme ir_black
+set background=dark
+colorscheme solarized
 syntax on
 
 let mapleader = ","    " Change leader key to ,
