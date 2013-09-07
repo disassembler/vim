@@ -36,7 +36,7 @@ NeoBundle 'disassembler/vim-snippets'
 NeoBundle 'othree/html5.vim'
 NeoBundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
 NeoBundle 'mutewinter/nginx.vim'
-NeoBundle 'StanAngeloff/php.vim'
+"NeoBundle 'StanAngeloff/php.vim' -- Crashing
 NeoBundle 'majutsushi/tagbar'
 "NeoBundle 'vim-scripts/XDebug-DBGp-client-for-PHP'
 NeoBundle 'arnaud-lb/vim-php-namespace'
