@@ -39,6 +39,7 @@ NeoBundle 'disassembler/vim-snippets'
 " Web - PHP/HTML/JS/CSS {{{
 NeoBundle 'majutsushi/tagbar'
 "NeoBundle 'vim-scripts/XDebug-DBGp-client-for-PHP'
+NeoBundle 'joonty/vdebug'
 NeoBundle 'arnaud-lb/vim-php-namespace'
 NeoBundle 'docteurklein/vim-symfony'
 NeoBundle 'vim-scripts/phpfolding.vim'
