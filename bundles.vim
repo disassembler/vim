@@ -21,6 +21,7 @@ NeoBundle 'Townk/vim-autoclose'
 NeoBundle 'vim-scripts/YankRing.vim'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'scrooloose/nerdcommenter'
+NeoBundle 'godlygeek/tabular'
 " }}}
 
 " Autocomplete {{{
@@ -56,7 +57,7 @@ NeoBundle 'killphi/splice.vim'
 " Syntax {{{
 NeoBundle 'mutewinter/nginx.vim'
 NeoBundle 'othree/html5.vim'
-NeoBundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
+NeoBundle 'cakebaker/scss-syntax.vim'
 "NeoBundle 'StanAngeloff/php.vim' " Crashing
 NeoBundle 'lunaru/vim-twig'
 NeoBundle 'vim-ruby/vim-ruby'
@@ -67,6 +68,7 @@ NeoBundle 'tpope/vim-markdown'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'yuroyoro/vim-python'
 NeoBundle 'scrooloose/syntastic'
+NeoBundle 'rodjek/vim-puppet'
 " }}}
 filetype plugin indent on
 
