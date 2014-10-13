@@ -5,7 +5,8 @@
 
 let g:debuggerMaxDepth = 10
 let g:syntastic_auto_jump = 1
-let g:syntastic_phpcs_conf="--standard=Drupal" 
+let g:syntastic_phpcs_conf="--standard=Drupal"
+let g:syntastic_puppet_puppetlint_args="--no-80chars-check --no-class_inherits_from_params_class-check"
 
 highlight ExtraWhitespace ctermbg=red guibg=red
 au ColorScheme * highlight ExtraWhitespace guibg=red

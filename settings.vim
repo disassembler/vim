@@ -126,7 +126,7 @@ nnoremap <leader>W :%s/\s\+$//<cr>:let @/=''<CR>
 " Map ,ev to open vimrc in split
 nnoremap <leader>ev <C-w><C-v><C-l>:e $MYVIMRC<cr>
 " Open new split with ,w
-nnoremap <leader>w <C-w>v<C-w>l
+nnoremap <leader>n <C-w>v<C-w>l
 
 " Movement around splits
 nnoremap <C-h> <C-w>h
@@ -134,3 +134,6 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+
+let g:vimwiki_list = [{'path': '~/vimwiki/',
+                     \ 'syntax': 'markdown', 'ext': '.md'}]
