@@ -52,11 +52,12 @@ NeoBundle '2072/PHP-Indenting-for-VIm'
 " Programming {{{
 NeoBundle 'tpope/vim-fugitive'
 "NeoBundle 'vim-scripts/OmniCppComplete'
-NeoBundle 'killphi/splice.vim'
+NeoBundle 'sjl/splice.vim'
 " }}}
 
 " Syntax {{{
 NeoBundle 'mutewinter/nginx.vim'
+"NeoBundle 'MarcWeber/vim-addon-nix'
 NeoBundle 'othree/html5.vim'
 NeoBundle 'cakebaker/scss-syntax.vim'
 "NeoBundle 'StanAngeloff/php.vim' " Crashing
@@ -66,7 +67,7 @@ NeoBundle 'elzr/vim-json'
 NeoBundle 'JavaScript-syntax'
 NeoBundle 'jQuery'
 NeoBundle 'tpope/vim-markdown'
-NeoBundle 'vimwiki/vimwiki'
+"NeoBundle 'vimwiki/vimwiki'
 NeoBundle 'kchmck/vim-coffee-script'
 NeoBundle 'yuroyoro/vim-python'
 NeoBundle 'scrooloose/syntastic'
